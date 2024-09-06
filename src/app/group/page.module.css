@@ -1,0 +1,24 @@
+.group-container.web-development {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+.group-container.api-development {
+  background-color: #e6ffe6; /* Light green */
+}
+
+.group-container.testing {
+  background-color: #fff4e6; /* Light orange */
+}
+
+.group-container h2 {
+  font-size: 1.5rem;
+  color: #0070f3;
+}
+
+.group-container h2:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 4px;
+}

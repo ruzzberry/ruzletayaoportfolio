@@ -1,0 +1,226 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #050505;
+  min-height: 100vh; 
+  user-select: none;
+}
+
+.main .description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  z-index: 2;
+  font-family: var(--font-mono);
+  padding-top: 5rem;
+  width: 100%;
+  margin: 0%;
+  padding-bottom: 2.5rem;
+}
+
+.cuteborders{
+  background-color: #045b62;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.navigationbar{
+  position: inherit;
+  padding-top: 40px;
+  background-color: #045b62;
+  z-index: 1000;
+}
+
+.introheader{
+  font-family: sans-serif;
+  align-items: inherit;
+  font-size: 3rem;
+  font-weight: 500;
+/*ANIMATION COMMANDS*/
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  color: #045b62;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 35% }
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #045b62 }
+}
+
+
+.name{
+  margin-left: 1rem;
+  font-family: sans-serif;
+  align-items: inherit;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.descriptiontext {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  align-content: center;
+  max-width: 100%;
+  
+  z-index: 2;
+  font-family: var(--font-mono);
+  padding-bottom: 5.1rem;
+  padding: 5rem;
+}
+
+.descriptiontext .mydescription{
+  font-family: sans-serif;
+  text-align: justify;
+  margin-right: 2em;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #e2e2e2;
+}
+
+.descriptiontext .mydescription .downloadCV{
+  display: inline-block;
+  margin-top: 10px; /* Adjust spacing between the text and button */
+  padding: 15px 30px;
+  background-color: #045b62;
+  color: #e2e2e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+
+.descriptiontext .mydescription .downloadCV:hover {
+  background-color: #02393e ;
+}
+
+.descriptiontext .mypicture{
+  border-radius: 80%;
+}
+
+
+.technicalSkills{
+padding-top: 20px;
+background-color: brown;
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 0%;
+}
+
+/*FOR MOBILE VIEW*/
+@media only screen and (max-width: 768px) {
+  .main{
+    align-items: center;
+    background-color: #050505;
+    /*min-height: 100vh;*/ /*THIS ADJUSTS THE HEIGHT OF THE WEBPAGE*/
+    max-width: fit-content;
+  }
+
+  .navigationbar {
+    background-color: #045b62;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+  .description .introheader{
+  font-family: sans-serif;
+  align-items: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 1rem;
+  
+  
+  /*ANIMATION*/
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  /* Typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #045b62 }
+}
+
+  .description .name{
+  font-family: sans-serif;
+  align-items: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: aqua;
+  }
+
+  .descriptiontext{
+    flex-direction: column-reverse;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    background-color: #050505;
+    
+  }
+
+  .descriptiontext .mydescription{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: .1em;
+    font-size: 1.300em;
+    font-weight: normal;
+    margin-top: 2rem;
+  }
+
+  .descriptiontext .mypicture{
+    border-radius: 80%;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .technicalSkills{
+    padding-top: 20px;
+    background-color: brown;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    height: 40rem;
+}
+}
