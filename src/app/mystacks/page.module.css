@@ -15,6 +15,12 @@ color: white;
     color: aqua;
 }
 
+.stackNames{
+  align-self: center;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 .stackContainer {
     display: flex;
     align-items: center;
@@ -129,12 +135,11 @@ color: white;
     max-width: 70rem;
     position: relative;
     height: 100%;
-    padding-top: 5rem;
   }
 
   .stackNames{
     align-self: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -145,8 +150,8 @@ color: white;
     /*border: 1px solid #ccc;*/
     border-radius: 10px;
     text-align: center;
-    height: 50%;
-    width: 75px; /* Adjust width as needed */
+    height: 40%;
+    width: 50px; /* Adjust width as needed */
     transition: transform 0.3s ease-in-out;
   }
 }

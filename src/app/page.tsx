@@ -9,14 +9,19 @@ import TechStack from "./mystacks/page";
 
 
 export default function Home() {
+
   return (
     <>
     <main className={styles.main}>
       
       <div className={styles.descriptiontext}>
-        <p className={styles.mydescription}>I’m a versatile software developer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
-        <button className={styles.downloadCV}> Download CV</button>
-        </p>
+        
+        <div className={styles.descdiv}>
+          <p className={styles.mydescription}>I’m a versatile software developer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
+            <button className={styles.downloadCV}> <a href="/files/Tayao_RuzleJhon_Resume.pdf" download="Tayao_RuzleJhon_Resume.pdf" className={styles.downloadtext}> DOWNLOAD CV</a></button>
+          </p>
+          
+        </div>
         <Image src="/formalpic.jpg" className={styles.mypicture}
         width={300}
         height={300}
@@ -31,7 +36,15 @@ export default function Home() {
       <div className={styles.technicalSkills}>
         <TechStack/> 
       </div>
+
+      <div className={styles.cuteborders}>
+        <p>BORDER PLACEHOLDER</p> 
+      </div>
       
+      <div className={styles.myProfileDiv}>
+        
+      </div>
+
     </main>
     </>
   );

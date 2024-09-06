@@ -116,13 +116,16 @@ return (
     
     <main className={styles.main}>
         <div className={styles.header}>
-            <h1>
-                {currentName.map((stack, index) => (
-                    <div key={index} className={styles.stackNames}>
-                    {stack.name}
-                    </div>
-                ))}
-            </h1>
+            <div>
+                <h1>
+                    {currentName.map((stack, index) => (
+                        <div key={index} className={styles.stackNames}>
+                            {stack.name}
+                        </div>
+                    ))}
+                </h1>
+            </div>
+            
 
             <div className={styles.stackContainer}>  
                 <div className={styles.arrowLeft} onClick={handleBothClicks}>
