@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
     <main className={styles.main}>
-
       
       <div className={styles.descriptiontext}>
         <p className={styles.mydescription}>I’m a versatile software developer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
