@@ -140,16 +140,6 @@ margin: 0%;
     max-width: fit-content;
   }
 
-  .navigationbar {
-    background-color: #045b62;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    z-index: 1000;
-}
-
-
-
   .description .introheader{
   font-family: sans-serif;
   align-items: inherit;
@@ -210,6 +200,19 @@ margin: 0%;
     margin-top: 20px;
     width: 200px;
     height: 200px;
+  }
+
+  .downloadCV{
+    display: inline-block;
+    margin-top: 10px; /* Adjust spacing between the text and button */
+    padding: 15px 30px;
+    background-color: #045b62;
+    color: #e2e2e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
   }
 
   .technicalSkills{
