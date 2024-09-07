@@ -6,8 +6,17 @@ import Image from "next/image";
 const MyProfile = () => {
     return(
         <main className={styles.main}>
-            <div>
-                <span className={styles.glowingText}> Ruzle</span>
+            <div className={styles.maincontainer}>
+                <div className={styles.maincard}>
+                    <div className={styles.namecard}>
+                        <span className={styles.glowingText}> RUZLE</span>
+                    </div>
+
+                    <div className={styles.leftContent}>
+                        Placeholder
+                    </div>
+
+                </div>
             </div>
         </main>
     );

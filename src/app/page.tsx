@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.descriptiontext}>
         
         <div className={styles.descdiv}>
-          <p className={styles.mydescription}>I’m a versatile software developer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
+          <p className={styles.mydescription}>I’m a versatile software engineer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
             <button className={styles.downloadCV}> <a href="/files/Tayao_RuzleJhon_Resume.pdf" download="Tayao_RuzleJhon_Resume.pdf" className={styles.downloadtext}> DOWNLOAD CV</a></button>
           </p>
           

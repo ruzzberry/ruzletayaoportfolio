@@ -137,7 +137,10 @@ align-items: center;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-margin: 0%;
+margin-top: 25px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+
 height: 29rem;
 }
 
@@ -238,7 +241,7 @@ height: 29rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0%;
+    margin-top: 25px;
     height: 28rem;
 }
 
