@@ -51,7 +51,6 @@ export default function Home() {
           Below this webpage is still a work in progres... more part is on it's way.
         </p>
       </div>
-
     </main>
     </>
   );
