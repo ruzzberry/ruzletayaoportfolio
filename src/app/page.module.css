@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #050505;
+  background-color: #222831;
   min-height: 100vh; 
   user-select: none;
 }
@@ -30,7 +30,7 @@
 }
 
 .cuteborders{
-  background-color: #045b62;
+  background-color: #31363F;
   padding-top: 25px;
   padding-bottom: 25px;
   width: 100%;
@@ -131,7 +131,7 @@
 
 .technicalSkills{
 padding-top: 20px;
-background-color: brown;
+background-color: #045b62;
 width: 100%;
 align-items: center;
 display: flex;
@@ -235,7 +235,7 @@ height: 29rem;
 
   .technicalSkills{
     padding-top: 20px;
-    background-color: brown;
+    background-color: #045b62;
     width: 100%;
     align-items: center;
     display: flex;

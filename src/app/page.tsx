@@ -17,6 +17,9 @@ export default function Home() {
       <div className={styles.descriptiontext}>
         
         <div className={styles.descdiv}>
+          <h1 style={{fontSize:'3rem', color:'white'}}>
+            Hi! I'm Ruzle!
+          </h1>
           <p className={styles.mydescription}>I’m a versatile software engineer specializing in web development and a software QA. Through hands-on experience and project work, I’ve developed a unique blend of coding and testing expertise, allowing me to deliver robust, high-quality solutions.        <br></br>
             <button className={styles.downloadCV}> <a href="/files/Tayao_RuzleJhon_Resume.pdf" download="Tayao_RuzleJhon_Resume.pdf" className={styles.downloadtext}> DOWNLOAD CV</a></button>
           </p>
@@ -30,7 +33,7 @@ export default function Home() {
       </div>
 
       <div className={styles.cuteborders}>
-        <p>BORDER PLACEHOLDER</p> 
+        <p></p> 
       </div>
 
       <div className={styles.technicalSkills}>
@@ -38,11 +41,13 @@ export default function Home() {
       </div>
 
       <div className={styles.cuteborders}>
-        <p>BORDER PLACEHOLDER</p> 
+        <p></p> 
       </div>
       
       <div className={styles.myProfileDiv}>
-        
+        <p style={{color:'white', paddingTop:'5rem', alignItems:'center',}}>
+          Below this webpage is still a work in progres... more part is on it's way.
+        </p>
       </div>
 
     </main>
