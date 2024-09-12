@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <>
     <main className={styles.main}>
-      
+      <title>
+        Ruzle's Portfolio
+      </title>
       <div className={styles.descriptiontext}>
         
         <div className={styles.descdiv}>
